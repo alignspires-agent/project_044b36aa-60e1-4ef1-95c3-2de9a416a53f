@@ -1,0 +1,92 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 9993.72 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-30 03:14:02,674 - INFO - Starting experiment: Normalizing Flows for Time Series with Distribution Shifts
+
+2025-09-30 03:14:02,674 - INFO - Generating synthetic time series data...
+
+2025-09-30 03:14:04,365 - INFO - Initializing Normalizing Flow model...
+
+2025-09-30 03:14:05,293 - INFO - Training model...
+
+2025-09-30 03:14:37,882 - ERROR - Critical error during experiment: The size of tensor a (10) must match the size of tensor b (32) at non-singleton dimension 1
+
+2025-09-30 03:14:37,882 - ERROR - Experiment terminated due to critical error
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-30 03:14:02,674 - INFO - Starting experiment: Normalizing Flows for Time Series with Distribution Shifts\n2025-09-30 03:14:02,674 - INFO - Generating synthetic time series data...\n2025-09-30 03:14:04,365 - INFO - Initializing Normalizing Flow model...\n2025-09-30 03:14:05,293 - INFO - Training model...\n2025-09-30 03:14:37,882 - ERROR - Critical error during experiment: The size of tensor a (10) must match the size of tensor b (32) at non-singleton dimension 1\n2025-09-30 03:14:37,882 - ERROR - Experiment terminated due to critical error\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 75342.83 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: d3b3cf15-d045-47c5-aed5-0e4ca8c49e5e Version: $LATEST
+
+RequestId: d3b3cf15-d045-47c5-aed5-0e4ca8c49e5e Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: d3b3cf15-d045-47c5-aed5-0e4ca8c49e5e
+
+REPORT RequestId: d3b3cf15-d045-47c5-aed5-0e4ca8c49e5e	Duration: 75344.92 ms	Billed Duration: 75345 ms	Memory Size: 3008 MB	Max Memory Used: 494 MB	
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-30 03:14:41,516 - INFO - Starting experiment: Normalizing Flows for Time Series with Distribution Shifts
+
+2025-09-30 03:14:41,516 - INFO - Generating synthetic time series data...
+
+2025-09-30 03:14:41,578 - INFO - Initializing Normalizing Flow model...
+
+2025-09-30 03:14:41,581 - INFO - Training model...
+
+2025-09-30 03:14:42,677 - ERROR - Critical error during experiment: The size of tensor a (10) must match the size of tensor b (32) at non-singleton dimension 1
+
+2025-09-30 03:14:42,677 - ERROR - Experiment terminated due to critical error
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-30 03:14:41,516 - INFO - Starting experiment: Normalizing Flows for Time Series with Distribution Shifts\n2025-09-30 03:14:41,516 - INFO - Generating synthetic time series data...\n2025-09-30 03:14:41,578 - INFO - Initializing Normalizing Flow model...\n2025-09-30 03:14:41,581 - INFO - Training model...\n2025-09-30 03:14:42,677 - ERROR - Critical error during experiment: The size of tensor a (10) must match the size of tensor b (32) at non-singleton dimension 1\n2025-09-30 03:14:42,677 - ERROR - Experiment terminated due to critical error\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 4065.02 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
